@@ -1,6 +1,6 @@
 # Gaffgaff
 
-Real-time chat application with AI interaction, featuring "Antigravity".
+Real-time chat application with AI interaction.
 
 ## Features
 
@@ -40,3 +40,4 @@ Real-time chat application with AI interaction, featuring "Antigravity".
 
 - `server.js`: Main server file handling Express and Socket.IO logic.
 - `public/`: Contains static frontend files (`index.html`, `style.css`, `script.js`).
+
