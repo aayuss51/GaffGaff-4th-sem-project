@@ -1,0 +1,21 @@
+{
+    "name": "gaffgaff",
+    "version": "1.0.0",
+    "description": "Real-time chat application with AI interaction",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "keywords": [
+        "chat",
+        "socket.io",
+        "ai",
+        "express"
+    ],
+    "author": "Antigravity",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.21.0",
+        "socket.io": "^4.7.5"
+    }
+}

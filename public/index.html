@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaffgaff</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="chat-container">
+        <header class="chat-header">
+            <h1>Gaffgaff</h1>
+            <span class="status-dot"></span>
+            <span class="status-text">Connected to Antigravity</span>
+        </header>
+        <div class="chat-history" id="chat-history">
+            <!-- Messages will be added here dynamically -->
+            <div class="message antigravity">
+                <div class="message-content">
+                    Greetings. I am Antigravity. How can I help you today?
+                </div>
+                <div class="message-timestamp">Just now</div>
+            </div>
+        </div>
+        <div class="chat-input-area">
+            <input type="text" id="message-input" placeholder="Type your message..." autocomplete="off">
+            <button id="send-button">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24px" height="24px">
+                    <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <!-- Socket.IO Client -->
+    <script src="/socket.io/socket.io.js"></script>
+    <!-- Frontend Logic -->
+    <script src="script.js"></script>
+</body>
+</html>
